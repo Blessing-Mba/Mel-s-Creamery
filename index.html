@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mel's Creamery</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Comic Neue' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="container">
+  <div class="header">
+    <h1>Mel's Creamery</h1>
+  </div>
+  <h3>Yummy Yummy Yum Yum !</h3>
+       <br>
+    <div id="Order-form ">
+       <div id="intro">
+         <button class="btn" id="introBtn">Place your order here!</button>
+       </div>
+      <br>
+      <div id="sizeMenu">
+            <h3>Select Ice cream Size</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="Small" checked> Small
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="Medium"> Medium
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="Big"> Big
+              </label>
+            </div>
+    
+              <br>
+              <button type="button"
+                id="sizeBtn">Next</button>
+              <br>
+            </div>
+        
+      </div>
+      </div>
+    <div id="toppingsMenu">
+       <div class="form-group">
+              <h3>Add Toppings</h3>
+              <h2>You may add one, multiple or none.</h2>
+              <div class="checkbox">
+                <input type="checkbox" name="topping" value="Caramel" 
+              checkbox> 
+                             Caramel $4.00
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="topping" value="Crushed chocolate 
+                  pretezel"> Crushed chocolate 
+                  pretezel $3.00
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="topping" value="Melted Marshmallows"> 
+                    Melted Marshmallows $2.00
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="topping" value="Oreos"> Oreos $2.00
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="topping" value="Sprinkles"> Sprinkles 
+                 $1.00
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="topping" value="Whipped Cream"> Whipped 
+               Cream $1.00
+              </div>
+              <br>
+              <button type="button"
+                  id="toppingsBtn">Your Order Summary</button>
+              <br>
+            </div>
+    </div>
+           <div id="subTotal">
+            <h3>Your Order Summary</h3>
+            <br>
+            <ul id="orders">
+            </ul>
+            <p>Total: $<span id="total"></span>.00</p>
+            <br>
+              <button type="button" class="btn btn-success" 
+                 id="subtotalButton">Complete Your Order</button>
+                  <button type="button" class="btn btn-info" 
+                  id="addPizza">Add Another Pizza</button>
+                  <button type="button" class="btn btn-danger" 
+                    id="removePizzaButton">Remove A Pizza</button>
+            <br>
+            <br>
+          </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

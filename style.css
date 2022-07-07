@@ -1,0 +1,55 @@
+body{
+  font-family:  'Comic Neue';
+  background-image: url("https://i.ibb.co/QYB8MvN/pexels-j-shoots-3631.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.header h1{
+  color: #FCE4EC;
+  font-size: 8rem;
+  line-height: 1rem;
+  font-weight: bold;
+}
+h3{
+margin-top: -1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #D50000;
+}
+#intro{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  border: none;
+  width: 18rem;
+  height: 5rem;
+  margin-top: 12rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+}
+.btn:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+#intro {
+  margin-top: 150px;
+}
+
+
+#sizeMenu, #toppingsMenu, #thankYou, #subTotal, #receipt, #modifyOrder, #delivery, #displayDeliveryInfo, #remove {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: inherit;
+  margin-top: 50px;
+  color: white;
+  font-size: 175%;
+}
+#sizeMenu, #toppingsMenu, #subTotal{
+  display: none;
+}
